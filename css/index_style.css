@@ -1,0 +1,91 @@
+html{
+    font-size:2.5vh;
+}
+
+body{
+    margin:0;
+    padding:0;
+    background:linear-gradient(to right, rgba(193, 118, 255, 0.873) 0%, rgba(112, 80, 217, 1) 70%);
+    font-family: "Michroma", sans-serif;
+    cursor:default;
+}
+
+.header{
+    display:flex;
+    width:0%;
+    height:10vh;
+    background-color:rgba(0, 0, 0, 0.1);
+    align-items:center;
+    justify-content:space-between;
+}
+
+.icon_button{
+    display:none;
+    height:100%;
+    width:10vh;
+    align-items:center;
+    justify-content:center;
+    margin-left:3%;
+}
+
+.icon_image{
+    object-fit:contain;
+    height:70%;
+}
+
+.options{
+    display:none;
+    height:100%;
+    width:80vh;
+    align-items:center;
+    justify-content:space-around;
+    margin-right:15%;
+}
+
+.option_button{
+    display:flex;
+    height:100%;
+    width:20vh;
+    align-items:center;
+    justify-content:center;
+    font-size:1rem;
+    text-decoration-line:none;
+    color:rgba(255, 255, 255, 1);
+}
+
+.personal_image__button_container{
+    width:50%;
+    height:90vh;
+    display:flex;
+    float:left;
+}
+
+.personal_image_button{
+    height:30%;
+    border:solid;
+    border-radius:50%;
+    border-color:rgb(72, 57, 119);
+    margin:auto auto;
+}
+
+.personal_image{
+    object-fit:contain;
+    height:100%;
+    border-radius:50%;
+}
+
+.slogan_container{
+    display:none;
+    width:50%;
+    height:90vh;
+    float:right;
+    font-family:"Michroma";
+    font-size:5rem;
+    align-items:center;
+}
+
+.slogan{
+    color:rgba(255, 255, 255, 0);
+    font-size:5rem;
+    margin:auto auto;
+}
